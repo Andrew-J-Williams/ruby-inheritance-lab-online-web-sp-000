@@ -1,5 +1,5 @@
 class Student < User
 
-  attr_accesor
+  attr_accessor 
 
 end
