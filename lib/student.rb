@@ -3,7 +3,7 @@ class Student < User # Inherits the information from the 'User' class
   attr_accessor :knowledge # Establish getter and setter methods for our 'knowledge' attribute.
 
   def initialize
-    @knowledge = []
+    @knowledge = [] # When we make a new student, that instance of a student will create an array tied to that specific student
   end
 
   def learn(new_knowledge)
