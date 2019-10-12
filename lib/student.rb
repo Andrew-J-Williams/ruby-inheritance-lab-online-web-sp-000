@@ -1,6 +1,6 @@
 class Student < User # Inherits the information from the 'User' class
 
-  attr_accessor :knowledge
+  attr_accessor :knowledge # Establish getter and setter methods for our 'knowledge' attribute
 
   def initialize
     @knowledge = []
