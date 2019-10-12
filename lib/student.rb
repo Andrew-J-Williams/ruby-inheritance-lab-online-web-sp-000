@@ -1,5 +1,5 @@
-class Student < User 
+class Student < User
 
-
+  attr_accesor
 
 end
